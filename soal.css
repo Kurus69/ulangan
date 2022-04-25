@@ -1,0 +1,355 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background:#e0e0e0;
+}
+a{
+    text-decoration: none;
+}
+p,a,b,i,u{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: #0D47A1;
+}
+
+header img {
+    float: left;
+    width: 100px;
+    height:80px ;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+header .judul {
+    float: left;
+    width: auto;
+    height: 100%;
+/*    background: red;*/
+}
+.judul b {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+.judul p {
+    width: 100%;
+    color: white;
+}
+
+.salam {
+    float: right;
+    width: 22%;
+    max-width: 25%;
+/*    display: inline-flex;*/
+    height: 100%;
+    background: #0e1f2f;
+    padding-right: 15px;
+}
+.salam a{
+    color: #3F51B5;
+    font-weight: bold;
+    margin-top:8px;
+/*    width: 100%;*/
+}
+.salam b{
+    float: left;
+    color: #e0e0e0;
+    margin-top: 15px;
+}
+.salam img{
+    width: 80px;
+    height: 70px;
+    margin: 15px;
+    margin-right: 15px;
+}
+.salam p{
+    color: white;
+    margin-top: 5px;
+}
+form {
+    width: 98%;
+    margin: 15px;
+    float: left;
+    min-height: 300px;
+    background: white;
+}
+.head{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+.soal{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: white;
+}
+.soal p{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.soal label{
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.soal label button{
+   width: 40px;
+   height:35px;
+    border: 0px;
+    font-size: 20px;
+    margin: 2px;
+    outline: none;
+    color: white;
+    background: #8BC34A;
+}
+
+.waktu {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: white;
+}
+.mnt{
+    float: right;
+    min-width: 250px;
+    height: 50px;
+    background: red;
+    margin: 20px;
+    margin-right: 50px;
+}
+.mnt p{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: lightgray;
+    line-height: 3;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+.mnt b{
+    text-align: center;
+    width: 150px;
+    line-height: 2.7;
+    height: 100%;
+    background: #8BC34A;
+    color: white;
+    font-size: 18px;
+}
+
+.font {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background:#f0f0f0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.font label{
+    float: left;
+    margin: 25px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.font b{
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size:17px;
+    cursor:pointer;
+}
+
+#bagan {
+    float: left;
+    width: 97%;
+    min-height: 500px;
+/*    background: red;*/
+    margin:20px;
+    font-size: 17px;
+}
+#bagan img{
+    width: auto;
+    height: 120px;
+}
+.tanya{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.tanya label{
+    float: left;
+    min-width: 200px;
+    max-width: 600px;
+    min-height: 10px;
+    border: 2px solid; 
+    margin: 30px;
+    padding: 10px;
+}
+.jawaban {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    padding-bottom: 10px;
+}
+.jawaban .jawab{
+    float: left;
+    width: 70%;
+    height: auto;
+    min-height: 30px;
+/*    background: red;*/
+    margin:10px;
+}
+.jawab b{
+    width: 22px;
+    height: 22px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 100%;
+    background: lightgray;
+    cursor: pointer;
+}
+.jawab .teks{
+    float: left;
+    width: 90%;
+    min-height: 20px;
+}
+.teks p{
+    margin-left: 10px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+#data {
+    float: right;
+    position: fixed;
+    top: 250px;
+    width: 90px;
+    height: 50px;
+    background: #F44336;
+    right: 0px;
+    cursor: pointer;
+    z-index: 100;
+    transition: .5s ease-in-out;
+}
+#data p{
+    margin: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+
+.pilih {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    border-top: 2px solid lightgray;
+    background: #f0f0f0;
+}
+.pilih ul{
+    float: left;
+    width: 90%;
+    height: 70px;
+/*    background: blue;*/
+    padding: 0px;
+    list-style: none;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.pilih ul li{
+    float: left;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background: #0D47A1;
+    margin-left: 125px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 2;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: #263238;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.datasoal {
+    position: fixed;
+    width: 000px;
+    height: 400px;
+    top: 200px;
+    background: white;
+    right: 0;
+    box-shadow: 0px 0px 5px lightgray;
+    transition: .5s ease-in-out;
+}
+
+.nomer {
+    width: 320px;
+    height: 370px;
+    margin: 15px;
+/*    border: 2px solid #f0f0f0;*/
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.nomer a{
+    margin: 7px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: #8BC34A;
+    line-height: 2;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.nomer button{
+    margin: 10px;
+    width: 280px;
+    height: 50px;
+    border: 0px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    outline: none;
+    background: #F44336;
+}
+
+.pilih input {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background: white;
+    border: none;
+    
+}
